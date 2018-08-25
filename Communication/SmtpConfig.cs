@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Basics.Email
+namespace Basics.Communications
 {
     public class SmtpConfig
     {
