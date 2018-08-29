@@ -8,6 +8,7 @@
     <Compile Remove="Mvc\ActionResultExtension.cs" />
     <Compile Remove="Mvc\Helper.cs" />
     <Compile Remove="PatternsAndPractices\ServiceCollectionExtension.cs" />
+    <Compile Remove="Persistence\IDatabaseSeeder.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,10 @@
     <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="2.0.0-rc3-final" />
     <PackageReference Include="OpenIddict.Validation" Version="2.0.0-rc3-final" />
     <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistence\" />
   </ItemGroup>
 
 </Project>
